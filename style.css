@@ -260,7 +260,7 @@ body {
   margin-bottom: 30px;
 }
 /* Footer section */
-.footer-section {
+.page-footer {
   background-color: var(--background-grey);
 }
 .footer-logo-link {
@@ -269,31 +269,38 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
+
 .address-nav-location {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
+
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
-.footer-section {
+
+.page-footer {
   padding: 60px 0px;
 }
+
 .adrees-nav {
   margin-top: 28px;
   gap: 10px;
 }
+
 .footer-list {
   flex-direction: column;
 }
+
 .footer-list > .footer-list-item {
   margin-bottom: 10px;
 }
+
 .footer-list-item {
   flex-basis: 270px;
   flex-grow: 0;
@@ -301,11 +308,13 @@ body {
   text-align: start;
   flex-wrap: wrap;
 }
+
 .footer-contacts:focus,
 .footer-contacts:active,
 .footer-contacts:hover {
   color: var(--navlink-color);
 }
+
 /* Portofolio */
 .but-all {
   color: var(--title-color);
@@ -489,13 +498,7 @@ body {
   border: 1px solid var(--navlink-color);
 }
 
-.container-find {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.footer-section > .container {
+.page-footer > .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
